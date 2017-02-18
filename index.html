@@ -8,28 +8,29 @@
 
 </head>
 <body>
+
 <h2>Chinese counting</h2>
 
 
-<audio id="one" src="audio/one.mp3"></audio>
-<audio id="two" src="audio/two.mp3"></audio>
-<audio id="three" src="audio/three.mp3"></audio>
-<audio id="four" src="audio/four.mp3"></audio>
-<audio id="five" src="audio/five.mp3"></audio>
-<audio id="six" src="audio/six.mp3"></audio>
-<audio id="seven" src="audio/seven.mp3"></audio>
-<audio id="eight" src="audio/eight.mp3"></audio>
-<audio id="nine" src="audio/nine.mp3"></audio>
-<audio id="ten" src="audio/ten.mp3"></audio>
-<audio id="20" src="audio/20.mp3"></audio>
-<audio id="30" src="audio/30.mp3"></audio>
-<audio id="40" src="audio/40.mp3"></audio>
-<audio id="50" src="audio/50.mp3"></audio>
-<audio id="60" src="audio/60.mp3"></audio>
-<audio id="70" src="audio/70.mp3"></audio>
-<audio id="80" src="audio/80.mp3"></audio>
-<audio id="90" src="audio/90.mp3"></audio>
-<audio id="100" src="audio/100.mp3"></audio>
+<audio id="one" src="audio/numbers/one.mp3"></audio>
+<audio id="two" src="audio/numbers/two.mp3"></audio>
+<audio id="three" src="audio/numbers/three.mp3"></audio>
+<audio id="four" src="audio/numbers/four.mp3"></audio>
+<audio id="five" src="audio/numbers/five.mp3"></audio>
+<audio id="six" src="audio/numbers/six.mp3"></audio>
+<audio id="seven" src="audio/numbers/seven.mp3"></audio>
+<audio id="eight" src="audio/numbers/eight.mp3"></audio>
+<audio id="nine" src="audio/numbers/nine.mp3"></audio>
+<audio id="ten" src="audio/numbers/ten.mp3"></audio>
+<audio id="20" src="audio/numbers/20.mp3"></audio>
+<audio id="30" src="audio/numbers/30.mp3"></audio>
+<audio id="40" src="audio/numbers/40.mp3"></audio>
+<audio id="50" src="audio/numbers/50.mp3"></audio>
+<audio id="60" src="audio/numbers/60.mp3"></audio>
+<audio id="70" src="audio/numbers/70.mp3"></audio>
+<audio id="80" src="audio/numbers/80.mp3"></audio>
+<audio id="90" src="audio/numbers/90.mp3"></audio>
+<audio id="100" src="audio/numbers/100.mp3"></audio>
 
 <button onclick="playOne()">yi = 1</button>
 <button onclick="playTwo()">er = 2</button>
@@ -52,11 +53,55 @@
 <button onclick="play90()">Jiǔshí = 90</button>
 <button onclick="play100()">Yībǎi = 100</button>
 
-
-
-
-
-
 <script src="js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+//----------------------voice recorder--------------
+<div class="container">
+<div class="recorder container">
+    <p>
+        <button class="btn btn-primary" onclick="startRecording(this);">Record</button>
+        <button class="btn btn-warning" onclick="stopRecording(this);" disabled>Stop</button>
+    </p>
+    <table id="recordingslist">
+        <tr id="sequencerBoxes"></tr>
+    </table>
+</div>
+
+
+
+
+
+    <script src="js/lib/recorder.js"></script>
+    <script src="js/recordLive.js"></script>
+
+
+    <script type="text/javascript">
+        $(window).load(function()
+        {
+            $('.editor.container').addClass('invisible');
+            onDocumentLoaded();
+        });
+    </script>
+
+    <p>Code by this guy: <a href="https://github.com/daaain/JSSoundRecorder">https://github.com/daaain/JSSoundRecorder</a></p>
+
+
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
+
+
+
+
+
 </body>
 </html>

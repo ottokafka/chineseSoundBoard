@@ -74,7 +74,3 @@ function play100(){
     document.getElementById("100").play();
 }
 
-
-
-
-
