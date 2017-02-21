@@ -109,12 +109,20 @@ function playMaybe(){
     document.getElementById("maybe").play();
 }
 
+function playMaybeNot(){
+    document.getElementById("maybeNot").play();
+}
+function playYes(){
+    document.getElementById("yes").play();
+}
 
+function playFuck(){
+    document.getElementById("fuck").play();
+}
 
-
-
-
-
+function playNo(){
+    document.getElementById("no").play();
+}
 
 
 
