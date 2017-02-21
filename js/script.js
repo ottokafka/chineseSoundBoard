@@ -74,3 +74,51 @@ function play100(){
     document.getElementById("100").play();
 }
 
+function playIam(){
+    document.getElementById("iam").play();
+}
+
+function playBad(){
+    document.getElementById("bad").play();
+}
+
+function playGood(){
+    document.getElementById("good").play();
+}
+
+function playHappy(){
+    document.getElementById("happy").play();
+}
+
+function playHowAreYou(){
+    document.getElementById("howAreYou").play();
+}
+
+function playThis(){
+    document.getElementById("this").play();
+}
+function playThat(){
+    document.getElementById("that").play();
+}
+
+function playImCalled(){
+    document.getElementById("imCalled").play();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
