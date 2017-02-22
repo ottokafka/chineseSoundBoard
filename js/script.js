@@ -124,9 +124,13 @@ function playNo(){
     document.getElementById("no").play();
 }
 
+function playIdontUnderstand(){
+    document.getElementById("idontUnderstand").play();
+}
 
-
-
+function playOr(){
+    document.getElementById("or").play();
+}
 
 
 
