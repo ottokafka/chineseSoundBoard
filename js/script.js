@@ -118,6 +118,7 @@ function playYes(){
 
 function playFuck(){
     document.getElementById("fuck").play();
+    document.getElementById("fuck").volume = 0.2;
 }
 
 function playNo(){
