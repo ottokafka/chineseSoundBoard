@@ -130,6 +130,7 @@ function playIdontUnderstand(){
 
 function playOr(){
     document.getElementById("or").play();
+    document.getElementById("or").volume = 0.5;
 }
 
 
