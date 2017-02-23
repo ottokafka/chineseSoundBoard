@@ -111,9 +111,11 @@ function playMaybe(){
 
 function playMaybeNot(){
     document.getElementById("maybeNot").play();
+    document.getElementById("maybeNot").volume = 0.5;
 }
 function playYes(){
     document.getElementById("yes").play();
+    document.getElementById("yes").volume = 0.5;
 }
 
 function playFuck(){
