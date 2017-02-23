@@ -118,25 +118,35 @@ function playYes(){
 
 function playFuck(){
     document.getElementById("fuck").play();
-    document.getElementById("fuck").volume = 0.2;
+   document.getElementById("fuck").volume = 0.5;
 }
 
 function playNo(){
     document.getElementById("no").play();
+    document.getElementById("no").volume = 0.5;
 }
 
 function playIdontUnderstand(){
     document.getElementById("idontUnderstand").play();
+    document.getElementById("idontUnderstand").volume = 0.5;
 }
 
 function playOr(){
-    document.getElementById("or").play();
+   document.getElementById("or").play();
     document.getElementById("or").volume = 0.5;
 }
 
 
 
+var createAudio = document.createElement("AUDIO");
+function playIt(){
+    createAudio.setAttribute("src","audio/everyday%20phrases/there.mp3");
+    createAudio.play();
+    document.body.appendChild(createAudio);
+}
 
 
+function SetVolume(val) {
+createAudio.volume = val / 100;
 
-
+}

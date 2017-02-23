@@ -11,7 +11,7 @@
 
 <h2>Chinese counting</h2>
 
-
+<div id="allAudioFiles">
 <audio id="one" src="audio/numbers/one.mp3"></audio>
 <audio id="two" src="audio/numbers/two.mp3"></audio>
 <audio id="three" src="audio/numbers/three.mp3"></audio>
@@ -47,8 +47,8 @@
 <audio id="yes" src="audio/everyday%20phrases/yes.mp3"></audio>
 <audio id="no" src="audio/everyday%20phrases/no.mp3"></audio>
 <audio id="or" src="audio/everyday%20phrases/or.mp3"></audio>
-
-
+<!--<audio src="audio/everyday%20phrases/there.mp3"></audio>-->
+</div>
 
 <button onclick="playOne()">yi = 1</button>
 <button onclick="playTwo()">er = 2</button>
@@ -85,7 +85,11 @@
 <button onclick="playYes()">yes- duì</button>
 <button onclick="playNo()">no- bù</button>
 <button onclick="playOr()">or- huò</button>
-<button onclick="playFuck()">fuck- Tā mā de</button>
+<button onclick="playIt()">fuck- Tā mā de</button>
+<button onclick="playIt()">there- nà lǐ</button>
+
+<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)">
+
 
 <script src="js/script.js"></script>
 
@@ -99,8 +103,6 @@
         <tr id="sequencerBoxes"></tr>
     </table>
 </div>
-
-
 
     <script src="js/lib/recorder.js"></script>
     <script src="js/recordLive.js"></script>
