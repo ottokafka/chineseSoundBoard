@@ -115,22 +115,22 @@ function playMaybeNot(){
 }
 function playYes(){
     document.getElementById("yes").play();
-    document.getElementById("yes").volume = 0.5;
+    document.getElementById("yes").volume = 0.3;
 }
 
 function playFuck(){
     document.getElementById("fuck").play();
-   document.getElementById("fuck").volume = 0.5;
+   document.getElementById("fuck").volume = 0.3;
 }
 
 function playNo(){
     document.getElementById("no").play();
-    document.getElementById("no").volume = 0.5;
+    document.getElementById("no").volume = 0.3;
 }
 
 function playIdontUnderstand(){
     document.getElementById("idontUnderstand").play();
-    document.getElementById("idontUnderstand").volume = 0.5;
+    document.getElementById("idontUnderstand").volume = 0.3;
 }
 
 function playOr(){
