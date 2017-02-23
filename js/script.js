@@ -128,9 +128,8 @@ function playNo(){
     document.getElementById("no").volume = 0.3;
 }
 
-function playIdontUnderstand(){
-    document.getElementById("idontUnderstand").play();
-    document.getElementById("idontUnderstand").volume = 0.3;
+function playIdontKnow(){
+    document.getElementById("idontknow").play();
 }
 
 function playOr(){
@@ -138,17 +137,13 @@ function playOr(){
     document.getElementById("or").volume = 0.5;
 }
 
+function playThere(){
+    document.getElementById("there").play();
+}
 
-
-var createAudio = document.createElement("AUDIO");
-function playIt(){
-    createAudio.setAttribute("src","audio/everyday%20phrases/there.mp3");
-    createAudio.play();
-    document.body.appendChild(createAudio);
+function playYourAwesome(){
+    document.getElementById("yourawesome").play();
 }
 
 
-function SetVolume(val) {
-createAudio.volume = val / 100;
 
-}
