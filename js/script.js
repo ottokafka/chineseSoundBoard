@@ -141,7 +141,7 @@ function playYourAwesome(){
     document.getElementById("yourawesome").play();
 }
 function playLetsDoIt() {
-    document.getElementById("letsdoit")
+    document.getElementById("letsdoit").play();
 }
 
 
