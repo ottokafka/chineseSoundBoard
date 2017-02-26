@@ -111,21 +111,17 @@ function playMaybe(){
 
 function playMaybeNot(){
     document.getElementById("maybeNot").play();
-    document.getElementById("maybeNot").volume = 0.5;
 }
 function playYes(){
     document.getElementById("yes").play();
-    document.getElementById("yes").volume = 0.3;
 }
 
 function playFuck(){
     document.getElementById("fuck").play();
-   document.getElementById("fuck").volume = 0.3;
 }
 
 function playNo(){
     document.getElementById("no").play();
-    document.getElementById("no").volume = 0.3;
 }
 
 function playIdontKnow(){
@@ -134,7 +130,7 @@ function playIdontKnow(){
 
 function playOr(){
    document.getElementById("or").play();
-    document.getElementById("or").volume = 0.5;
+
 }
 
 function playThere(){
