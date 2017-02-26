@@ -140,6 +140,8 @@ function playThere(){
 function playYourAwesome(){
     document.getElementById("yourawesome").play();
 }
-
+function playLetsDoIt() {
+    document.getElementById("letsdoit")
+}
 
 
