@@ -74,74 +74,109 @@ function play100(){
     document.getElementById("100").play();
 }
 
-function playIam(){
+const playIam =()=>{
     document.getElementById("iam").play();
-}
+};
 
-function playBad(){
+const playBad =() =>{
     document.getElementById("bad").play();
-}
+};
 
-function playGood(){
+const playGood =() =>{
     document.getElementById("good").play();
-}
+};
 
-function playHappy(){
+const playHappy =() =>{
     document.getElementById("happy").play();
-}
+};
 
-function playHowAreYou(){
+const playHowAreYou =()=>{
     document.getElementById("howAreYou").play();
-}
+};
 
-function playThis(){
+const playThis =()=>{
     document.getElementById("this").play();
-}
-function playThat(){
+};
+const playThat =() =>{
     document.getElementById("that").play();
-}
+};
 
-function playImCalled(){
+const playImCalled =() =>{
     document.getElementById("imCalled").play();
-}
+};
 
-function playMaybe(){
+const playMaybe =() =>{
     document.getElementById("maybe").play();
-}
+};
 
-function playMaybeNot(){
+const playMaybeNot =() =>{
     document.getElementById("maybeNot").play();
-}
-function playYes(){
+};
+const playYes =() =>{
     document.getElementById("yes").play();
-}
+};
 
-function playFuck(){
+const playFuck =()=>{
     document.getElementById("fuck").play();
-}
+};
 
-function playNo(){
+const playNo =()=>{
     document.getElementById("no").play();
-}
+};
 
-function playIdontKnow(){
+const playIdontKnow =()=>{
     document.getElementById("idontknow").play();
-}
+};
 
-function playOr(){
+const playOr =()=>{
    document.getElementById("or").play();
 
-}
+};
 
-function playThere(){
+const playThere =() => {
     document.getElementById("there").play();
-}
+};
 
-function playYourAwesome(){
+const playYourAwesome =() =>{
     document.getElementById("yourawesome").play();
-}
-function playLetsDoIt() {
-    document.getElementById("letsdoit").play();
-}
+};
 
+const playLetsDoIt =() =>{
+    document.getElementById("letsdoit").play();
+};
+
+
+const playBut = () => {
+    document.getElementById("but").play();
+};
+
+const  playNotGood =()=>{
+    document.getElementById("notgood").play();
+};
+const playBye=()=>{
+  document.getElementById("bye").play();
+};
+
+const playThanks =()=>{
+    document.getElementById("thanks").play()
+};
+
+const playYourWelcome =()=>{
+    document.getElementById("yourwelcome").play()
+};
+
+const playToilet =()=>{
+  document.getElementById("toilet").play()
+};
+const playYourName=()=>{
+    document.getElementById("yourname").play()
+};
+
+const playWhatYouLookingAt =() =>{
+  document.getElementById("whatAreYouLookingAt").play();
+};
+
+const playImFrom =()=>{
+    document.getElementById("imFrom").play()
+};
 
