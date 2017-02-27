@@ -180,3 +180,13 @@ const playImFrom =()=>{
     document.getElementById("imFrom").play()
 };
 
+function playNothing() {
+    document.getElementById("nothing").play()
+}
+function playLeft() {
+    document.getElementById("left").play()
+}
+
+function playRight() {
+    document.getElementById("right").play()
+}
