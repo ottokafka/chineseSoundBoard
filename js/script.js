@@ -169,7 +169,7 @@ const playToilet =()=>{
   document.getElementById("toilet").play()
 };
 const playYourName=()=>{
-    document.getElementById("yourname").play()
+    document.getElementById("yourName").play()
 };
 
 const playWhatYouLookingAt =() =>{
