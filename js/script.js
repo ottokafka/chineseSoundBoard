@@ -190,3 +190,10 @@ function playLeft() {
 function playRight() {
     document.getElementById("right").play()
 }
+
+function playYouAreBeautiful() {
+    document.getElementById("youAreYouBeautiful").play();
+}
+
+
+
