@@ -191,9 +191,19 @@ function playRight() {
     document.getElementById("right").play()
 }
 
-function playYouAreBeautiful() {
-    document.getElementById("youAreYouBeautiful").play();
+function playYouArePretty() {
+    document.getElementById("youArePretty").play()
 }
 
+function playYourAreBeautiful() {
+    document.getElementById("youAreBeautiful").play()
+}
 
+function playSarcasm() {
+    document.getElementById("sarcasm").play()
+}
+
+function playThatsSarcasm() {
+    document.getElementById("thatsSarcasm").play()
+}
 
