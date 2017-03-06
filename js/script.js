@@ -209,3 +209,6 @@ function playThatsSarcasm() {
 function playNiceToMeetYou() {
     document.getElementById("NiceToMeetYou").play()
 }
+function playIDontUnderstand() {
+    document.getElementById("IDontUnderstand").play()
+}
