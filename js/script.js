@@ -206,4 +206,6 @@ function playSarcasm() {
 function playThatsSarcasm() {
     document.getElementById("thatsSarcasm").play()
 }
-
+function playNiceToMeetYou() {
+    document.getElementById("NiceToMeetYou").play()
+}
