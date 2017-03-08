@@ -206,9 +206,11 @@ function playSarcasm() {
 function playThatsSarcasm() {
     document.getElementById("thatsSarcasm").play()
 }
-function playNiceToMeetYou() {
-    document.getElementById("NiceToMeetYou").play()
-}
+
+//function playNiceToMeetYou() {
+ //   document.getElementById("NiceToMeetYou").play()
+//}
+
 function playIDontUnderstand() {
     document.getElementById("IDontUnderstand").play()
 }
@@ -240,5 +242,25 @@ function playGoodNight() {
     document.getElementById("goodNight").play()
 }
 function playIDontUnderstand2() {
-    document.getElementById("iDontUnderstand2").play()
+    document.getElementById("IDontUnderstand2").play()
 }
+
+//function playWhatAreYouDoing() {
+//    document.getElementById("whatAreYouDoing").play()
+//}
+
+function playNothing2() {
+    document.getElementById("nothing2").play()
+}
+function playWhatAreYouDoing2() {
+    document.getElementById("whatAreYouDoing2").play()
+}
+function playGoodJob() {
+    document.getElementById("goodJob").play()
+}
+
+
+
+
+
+
