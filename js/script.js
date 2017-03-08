@@ -211,9 +211,9 @@ function playThatsSarcasm() {
  //   document.getElementById("NiceToMeetYou").play()
 //}
 
-function playIDontUnderstand() {
-    document.getElementById("IDontUnderstand").play()
-}
+//function playIDontUnderstand() {
+ //   document.getElementById("IDontUnderstand").play()
+//}
 function playWhat() {
     document.getElementById("what").play()
 }
