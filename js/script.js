@@ -212,3 +212,18 @@ function playNiceToMeetYou() {
 function playIDontUnderstand() {
     document.getElementById("IDontUnderstand").play()
 }
+function playWhat() {
+    document.getElementById("what").play()
+}
+function playWhere() {
+    document.getElementById("where").play()
+}
+function playWho() {
+    document.getElementById("who").play()
+}
+function playWater() {
+    document.getElementById("water").play()
+}
+function playWhy() {
+    document.getElementById("why").play()
+}
