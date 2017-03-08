@@ -227,3 +227,18 @@ function playWater() {
 function playWhy() {
     document.getElementById("why").play()
 }
+function playIAmGoodAreYou() {
+    document.getElementById("IAmGoodAreYou").play()
+}
+function playLongtimeNoSee() {
+    document.getElementById("longTimeNoSee").play()
+}
+function playPleasedToMeetYou() {
+    document.getElementById("pleasedToMeetYou").play()
+}
+function playGoodNight() {
+    document.getElementById("goodNight").play()
+}
+function playIDontUnderstand2() {
+    document.getElementById("iDontUnderstand2").play()
+}
