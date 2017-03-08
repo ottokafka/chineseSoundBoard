@@ -259,7 +259,9 @@ function playGoodJob() {
     document.getElementById("goodJob").play()
 }
 
-
+function playSorry() {
+    document.getElementById("sorry").play()
+}
 
 
 
