@@ -35,24 +35,24 @@
 <!--------------------Greetings----------------------->
 <audio id="howAreYou" src="audio/everyday%20phrases/how%20are%20you.mp3"></audio>
 <audio id="thanks" src="audio/everyday%20phrases/thanks.mp3"></audio>
-<audio id="yourwelcome" src="audio/everyday%20phrases/your%20welcome.mp3"></audio>
+<audio id="yourWelcome" src="audio/everyday%20phrases/your%20welcome.mp3"></audio>
 <audio id="bye" src="audio/everyday%20phrases/bye.mp3"></audio>
 <audio id="imFrom" src="audio/everyday%20phrases/im%20from.mp3"></audio>
 <audio id="yourName" src="audio/everyday%20phrases/your%20name.mp3"></audio>
 <audio id="NiceToMeetYou" src="audio/everydayPhrases2/NiceToMeetYou.mp3"></audio>
 <audio id="longTimeNoSee" src="audio/everydayPhrases2/longTimeNoSee.mp3"></audio>
 <audio id="pleasedToMeetYou" src="audio/everydayPhrases2/pleasedToMeetYou.mp3"></audio>
-<audio id="IAmGoodAreYou" src="audio/everydayPhrases2/IAmGoodAreYou.mp3"></audio>
+<audio id="iAmGoodAreYou" src="audio/everydayPhrases2/IAmGoodAreYou.mp3"></audio>
 <audio id="sorry" src="audio/everydayPhrases2/sorry.mp3"></audio>
 
 
 <!----------------Common Words--------------------->
 <audio id="nothing2" src="audio/everydayPhrases2/nothing.mp3"></audio>
-<audio id="whatAreYouDoing2" src="audio/everydayPhrases2/whatAreYouDoing.mp3"></audio>
-<audio id="iam" src="audio/everyday%20phrases/%20i%20am.mp3"></audio>
+<audio id="whatAreYouDoing" src="audio/everydayPhrases2/whatAreYouDoing.mp3"></audio>
+<audio id="iAm" src="audio/everyday%20phrases/%20i%20am.mp3"></audio>
 <audio id="bad" src="audio/everyday%20phrases/bad.mp3"></audio>
 <audio id="good" src="audio/everyday%20phrases/good.mp3"></audio>
-<audio id="iamGood" src="audio/everyday%20phrases/i%20am%20good.mp3"></audio>
+<audio id="iAmGood" src="audio/everyday%20phrases/i%20am%20good.mp3"></audio>
 <audio id="happy" src="audio/everyday%20phrases/happy.mp3"></audio>
 
 <audio id="this" src="audio/everyday%20phrases/this.mp3"></audio>
@@ -65,17 +65,17 @@
 <audio id="no" src="audio/everyday%20phrases/no.mp3"></audio>
 <audio id="or" src="audio/everyday%20phrases/or.mp3"></audio>
 <audio id="there" src="audio/everyday%20phrases/there.mp3"></audio>
-    <audio id="idontknow" src="audio/everyday%20phrases/i%20dont%20know.mp3"></audio>
-    <audio id="yourawesome" src="audio/everyday%20phrases/your%20awesome.mp3"></audio>
-<audio id="letsdoit" src="audio/everyday%20phrases/lets%20go.mp3"></audio>
+    <audio id="iDontKnow" src="audio/everyday%20phrases/i%20dont%20know.mp3"></audio>
+    <audio id="yourAwesome" src="audio/everyday%20phrases/your%20awesome.mp3"></audio>
+<audio id="letsDoIt" src="audio/everyday%20phrases/lets%20go.mp3"></audio>
 <audio id="but" src="audio/everyday%20phrases/but.mp3"></audio>
-<audio id="notgood" src="audio/everyday%20phrases/not%20good.mp3"></audio>
+<audio id="notGood" src="audio/everyday%20phrases/not%20good.mp3"></audio>
 
 
 <audio id="toilet" src="audio/everyday%20phrases/toilet.mp3"></audio>
 <audio id="whatAreYouLookingAt" src="audio/everyday%20phrases/heyWhatYouLookingAt.mp3"></audio>
 <audio id="nothing" src="audio/everyday%20phrases/nothing.mp3"></audio>
-<audio id="IDontUnderstand2" src="audio/everydayPhrases2/IDontUnderstand2.mp3"></audio>
+<audio id="iDontUnderstand" src="audio/everydayPhrases2/IDontUnderstand2.mp3"></audio>
 
 <audio id="left" src="audio/everyday%20phrases/left.mp3"></audio>
 <audio id="right" src="audio/everyday%20phrases/right.mp3"></audio>
@@ -102,27 +102,28 @@
 
 
 <h2>Greetings</h2>
-<button onclick="playLongtimeNoSee()">long time no see-Hǎo jiǔ bù jiàn 好久不见</button>
-<button onclick="playImFrom()">im from-Wǒ cóng,lái(wo,tong,lie) </button>
-<button onclick="playHowAreYou()">how are you- nǐ hǎo ma</button>
-<button onclick="playImCalled()">i am Called- Wǒ jiào (woo,chow)</button>
+<button class="longTimeNoSee" onclick="play(this)">long time no see-Hǎo jiǔ bù jiàn 好久不见</button>
+<button class="imFrom" onclick="play(this)">im from-Wǒ cóng,lái(wo,tong,lie) </button>
+<button class="howAreYou" onclick="play(this)">how are you- nǐ hǎo ma</button>
+<button class="imCalled" onclick="play(this)">i am Called- Wǒ jiào (woo,chow)</button>
 
-<button onclick="playThanks()">thanks- Xièxie(c,c)</button>
-<button onclick="playYourWelcome()">your welcome-Bú kè qi(boo,ka,chi)</button>
-<button onclick="playYourName()">your name-Nín guì xìng?(nen,coin,sing)</button>
+<button class="thanks" onclick="play(this)">thanks- Xièxie(c,c)</button>
+<button class="yourWelcome" onclick="play(this)">your welcome-Bú kè qi(boo,ka,chi)</button>
+<button class="yourName" onclick="play(this)">your name-Nín guì xìng?(nen,coin,sing)</button>
 
-<button onclick="playBye()">bye- Zài jiàn(zi,gin)</button>
+<button class="bye" onclick="play(this)">bye- Zài jiàn(zi,gin)</button>
 
 
 <!--------------------Greet Responses----------------------->
 
 
 <h2>Greet Responses</h2>
-<button onclick="playPleasedToMeetYou()">pleased to meet you-Xìng huì 幸会</button>
-<button onclick="playIam()">i am- wǒ shì (woo,she)</button>
-<button onclick="playGood()">good- hǎo de (how,da)</button>
 
-<button onclick="playIAmGoodAreYou()">I am good ru-Wǒ hěn hǎo, nǐ ne? 我很好，你呢</button>
+<button class="pleasedToMeetYou" onclick="play(this)">pleased to meet you-Hěn gāoxìng jiàn dào nǐ 很高兴见到你</button>
+<button class="iAm" onclick="play(this)">i am- wǒ shì (woo,she)</button>
+<button class="good" onclick="play(this)">good- hǎo de (how,da)</button>
+
+<button class="iAmGood" onclick="play(this)">I am good ru-Wǒ hěn hǎo, nǐ ne? 我很好，你呢</button>
 
 
 
@@ -130,12 +131,12 @@
 
 
 <!--------------------What where why----------------------->
-<button onclick="playWhat()">what-Shén me</button>
-<button onclick="playWhere()">where-Hé chù 何处</button>
+<button class="what" onclick="play(this)">what-Shén me</button>
+<button class="where" onclick="play(this)">where-Nǎ lǐ 哪里</button>
 
-<button onclick="playWho()">who-Shuí 谁</button>
-<button onclick="playWater()">water-Shuǐ 水</button>
-<button onclick="playWhy()">why-Wèi shéme 为什么</button>
+<button class="who" onclick="play(this)">who-Shuí 谁</button>
+<button class="water" onclick="play(this)">water-Shuǐ 水</button>
+<button class="why" onclick="play(this)">why-Wèi shéme 为什么</button>
 
 <!--------------------Greetings----------------------->
 
@@ -145,56 +146,55 @@
 
 <!--------------------Nice Comments----------------------->
 <h2>Compliments</h2>
-<button onclick="playYouArePretty()">you are Pretty- Nǐ hěn piào liang</button>
-<button onclick="playYourAreBeautiful()">your are beautiful-Nǐ hěn měi (ni hun may) </button>
-
+<button class="youArePretty" onclick="play(this)">you are Pretty- Nǐ hěn piào liang</button>
+<button class="youAreBeautiful" onclick="play(this)">you are beautiful-Nǐ hěn měi (ni hun may) </button>
 
 
 <!--------------------General Responses----------------------->
 
 
 <h2>General Responses</h2>
-<button onclick="playGoodJob()">good Job= Zuò de hǎo 做得好</button>
-<button onclick="playGoodNight()">goodNight= Wǎn'ān 晚安 </button>
-<button onclick="playSorry()">sorry= Duì bù qǐ</button>
-<button onclick="playLetsDoIt()">letsDoIt- Zǒu qǐ (zo,chi)</button>
-<button onclick="playThat()">that- Nà ge (na,ga)</button>
-<button onclick="playYes()">yes- duì(da,way)</button>
-<button onclick="playNo()">no- bù(boo)</button>
-<button onclick="playIdontKnow()">iDontKnow- wǒ bù míng bai(woo,bo,ming,bye)我不明白 </button>
+<button class="goodJob" onclick="play(this)">good Job= Zuò de hǎo 做得好</button>
+<button class="goodNight" onclick="play(this)">goodNight= Wǎn'ān 晚安 </button>
+<button class="sorry" onclick="play(this)">sorry= Duì bù qǐ</button>
+<button class="letsDoIt" onclick="play(this)">letsDoIt- Zǒu qǐ (zo,chi)</button>
+<button class="that" onclick="play(this)">that- Nà ge (na,ga)</button>
+<button class="yes" onclick="play(this)">yes- duì(da,way)</button>
+<button class="no" onclick="play(this)">no- bù(boo)</button>
+<button class="iDontKnow" onclick="play(this)">iDontKnow- wǒ bù míng bai(woo,bo,ming,bye)我不明白 </button>
 
 
 
 
 
 <h2>Common words</h2>
-<button onclick="playWhatAreYouDoing2()">what are you doing= Zài gàn ma </button>
-<button onclick="playNothing2()">nothing= Méi shì 没事</button>
-<button onclick="playIDontUnderstand2()">I dont understand-Wǒ bù dǒng 我不懂 </button>
+<button class="whatAreYouDoing" onclick="play(this)">what are you doing= Zài gàn ma </button>
+<button class="nothing" onclick="play(this)">nothing= Méi shì 没事</button>
+<button class="iDontUnderstand" onclick="play(this)">I dont understand-Wǒ bù dǒng 我不懂 </button>
 
-<button onclick="playBad()">bad- huài de (why,da)</button>
-<button onclick="playNotGood()">not good-bù hǎo de(boo,how,da)</button>
-<button onclick="playHappy()">happy- Gāo xìng de(gow sing da)</button>
-<button onclick="playThis()">this- Zhè ge (sure,ga)</button>
-<button onclick="playThere()">there- nà lǐ(na,lee)</button>
-<button onclick="playMaybe()">maybe- Yě xǔ ba (yah see, ba)</button>
-<button onclick="playMaybeNot()">maybe not- Yě xǔ bù shì(yah,see,boo,she)</button>
-<button onclick="playOr()">or- huò(whora)</button>
-<button onclick="playToilet()">toilet-Cè suǒ(te,so,ah </button>
-<button onclick="playFuck()">fuck- Tā mā de</button>
-<button onclick="playYourAwesome()">your awesome- Nǐ zhēn bàng(ne,gin,bong)</button>
-<button onclick="playBut()">but- Dàn</button>
-<button onclick="playWhatYouLookingAt()">whatAreYouLookingAt-Hēi, gē men(hey,go,men)</button>
-<button onclick="playNothing()">Nothing- Méi yǒu(may,yo)</button>
+<button class="bad" onclick="play(this)">bad- huài de (why,da)</button>
+<button class="notGood" onclick="play(this)">not good-bù hǎo de(boo,how,da)</button>
+<button class="happy" onclick="play(this)">happy- Gāo xìng de(gow sing da)</button>
+<button class="this" onclick="play(this)">this- Zhè ge (sure,ga)</button>
+<button class="there" onclick="play(this)">there- nà lǐ(na,lee)</button>
+<button class="maybe" onclick="play(this)">maybe- Yě xǔ ba (yah see, ba)</button>
+<button class="maybeNot" onclick="play(this)">maybe not- Yě xǔ bù shì(yah,see,boo,she)</button>
+<button class="or" onclick="play(this)">or- huò(whora)</button>
+<button class="toilet" onclick="play(this)">toilet-Cè suǒ(te,so,ah </button>
+<button class="fuck" onclick="play(this)">fuck- Tā mā de</button>
+<button class="yourAwesome" onclick="play(this)">your awesome- Nǐ zhēn bàng(ne,gin,bong)</button>
+<button class="but" onclick="play(this)">but- Dàn</button>
+<button class="whatAreYouLookingAt" onclick="play(this)">whatAreYouLookingAt-Hēi, gē men(hey,go,men)</button>
+<button class="nothing" onclick="play(this)">Nothing- Méi yǒu(may,yo)</button>
 
 <h3>Directions</h3>
-<button onclick="playLeft()">left- Zuǒ biān()</button>
-<button onclick="playRight()">Right- Yòu(yo)</button>
+<button class="left" onclick="play(this)">left- Zuǒ biān()</button>
+<button class="right" onclick="play(this)">Right- Yòu(yo)</button>
 
 
 <h3>Big words</h3>
-<button onclick="playSarcasm()">sarcasm- fèngcì (fung,si)</button>
-<button onclick="playThatsSarcasm()">thats sarcasm- Zhè shì fèngcì (che,she,fung,si)</button>
+<button class="sarcasm" onclick="play(this)">sarcasm- fěng cì (fung,si)</button>
+<button class="thatsSarcasm" onclick="play(this)">thats sarcasm- Zhè shì fěng cì (che,she,fung,si)</button>
 
 
 
@@ -205,27 +205,35 @@
 
 
 
-<button onclick="playOne()">yi = 1</button>
-<button onclick="playTwo()">er = 2</button>
-<button onclick="playThree()">san = 3</button>
-<button onclick="playFour()">si (si,n)= 4</button>
-<button onclick="playFive()">wu (ow)= 5</button>
-<button onclick="playSix()">liu (leo)= 6</button>
-<button onclick="playSeven()">qi (chi)= 7</button>
-<button onclick="playEight()">ba = 8</button>
-<button onclick="playNine()">jui (je,o)= 9</button>
-<button onclick="playTen()">shi (she)= 10</button>
+<button class="one" onclick="play(this)">yi = 1</button>
+<button class="two" onclick="play(this)">er = 2</button>
+<button class="three" onclick="play(this)">san = 3</button>
+<button class="four" onclick="play(this)">si (si,n)= 4</button>
+<button class="five" onclick="play(this)">wu (ow)= 5</button>
+<button class="six" onclick="play(this)">liu (leo)= 6</button>
+<button class="seven" onclick="play(this)">qi (chi)= 7</button>
+<button class="eight" onclick="play(this)">ba = 8</button>
+<button class="nine" onclick="play(this)">jui (je,o)= 9</button>
+<button class="ten" onclick="play(this)">shi (she)= 10</button>
 
-<button onclick="play20()">Èrshí (r,she)= 20</button>
-<button onclick="play30()">Sānshí (san,she)= 30</button>
-<button onclick="play40()">Sìshí = 40</button>
-<button onclick="play50()">Wǔshí = 50</button>
-<button onclick="play60()">Liùshí = 60</button>
-<button onclick="play70()">Qīshí = 70</button>
-<button onclick="play80()">Bāshí = 80</button>
-<button onclick="play90()">Jiǔshí = 90</button>
-<button onclick="play100()">Yībǎi = 100</button>
+<button class="20" onclick="play(this)">Èrshí (r,she)= 20</button>
+<button class="30" onclick="play(this)">Sānshí (san,she)= 30</button>
+<button class="40" onclick="play(this)">Sìshí = 40</button>
+<button class="50" onclick="play(this)">Wǔshí = 50</button>
+<button class="60" onclick="play(this)">Liùshí = 60</button>
+<button class="70" onclick="play(this)">Qīshí = 70</button>
+<button class="80" onclick="play(this)">Bāshí = 80</button>
+<button class="90" onclick="play(this)">Jiǔshí = 90</button>
+<button class="100" onclick="play(this)">Yībǎi = 100</button>
 
+<button class="1000" onclick="play(this)">1000 Yīqiān 一千</button>
+<audio id="1000" src="audio/numbers/1000.mp3"></audio>
+
+<button class="10000" onclick="play(this)">10000 Yī wàn 一万</button>
+<audio id="10000" src="audio/numbers/10000.mp3"> </audio>
+
+<button class="million" onclick="play(this)">million Yībǎi wàn 一百万</button>
+<audio id="million" src="audio/numbers/million.mp3"></audio>
 
 <!--
 <button onclick="playNiceToMeetYou()">Nice to meet you- Yǒu shēng zhī nián, xīn xǐ xiāng féng</button>
