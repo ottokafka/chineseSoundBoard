@@ -1,6 +1,7 @@
+
+
 button {
-    margin: 10px;
-    font-size: 26px;
+   overflow: auto;
 }
 
 h1 {
