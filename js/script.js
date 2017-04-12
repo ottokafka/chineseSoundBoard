@@ -1,4 +1,5 @@
-function play(obj) {
-    document.getElementById(obj.className).play()
-}
 
+
+const play = (obj) => {
+    document.getElementById(obj.className).play()
+};
